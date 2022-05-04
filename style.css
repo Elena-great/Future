@@ -1,0 +1,32 @@
+body {
+  background-image: url("assets/image/fortune-cookies-paper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn {
+  background-color: hsl(29, 27%, 78%, 0.7);
+  padding: 15px;
+  font-size: 40px;
+  border: 2px solid #000;
+  font-family: 'Raleway', sans-serif;
+  position: fixed;
+}
+.par {
+  display: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  margin-top: 700px;
+  padding: 20px;
+  text-align: center;
+  width: 45%;
+}

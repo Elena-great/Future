@@ -30,3 +30,25 @@ body {
   text-align: center;
   width: 45%;
 }
+
+@media (max-width: 500px) {
+  .btn  {
+    font-size: 25px;
+    margin: 15px;
+  
+  }
+
+  .par  {
+    font-size: 23px;
+    margin-top: 600px;
+    width: 80%; 
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .par  {
+    margin-top: 400px;
+    width: 60%; 
+  }
+}
